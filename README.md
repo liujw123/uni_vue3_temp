@@ -21,7 +21,7 @@
 
 1. api
     - index.js 在这定义 api 接口  
-        ex: `export const login = params => server.post({ url: '/Admino/login', ...params }); // 登录`
+        ex: `export const login = params => server.post({ url: '/admin/login', ...params }); // 登录`
     - server.js 这里定义请求方法  
         - 引入了 [uni-ajax](https://uniajax.ponjs.com/)
         - 定义拦截和错误处理
