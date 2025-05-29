@@ -1,9 +1,9 @@
 # uni-app vue3(vite) template
 
-这是一个基于 uni-app + vue3 + vite 的小程序模板
-对常用的功能进行了封装，方便快速开发。
-后续会持续修改和完善。
-以微信小程序作为示例
+这是一个基于 uni-app + vue3 + vite 的小程序模板  
+对常用的功能进行了封装，方便快速开发。  
+后续会持续修改和完善。  
+以微信小程序作为示例  
 
 ## vite.config.js
 
@@ -20,9 +20,9 @@
 **src\pages\index\index.vue** 这里有使用示例
 
 1. api
-    - index.js 在这定义 api 接口
+    - index.js 在这定义 api 接口  
         ex: `export const login = params => server.post({ url: '/Admino/login', ...params }); // 登录`
-    - server.js 这里定义请求方法
+    - server.js 这里定义请求方法  
         - 引入了 [uni-ajax](https://uniajax.ponjs.com/)
         - 定义拦截和错误处理
 2. styles
